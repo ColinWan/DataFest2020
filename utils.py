@@ -1,8 +1,4 @@
-import os
 from twarc import Twarc
-import sys
-import json
-import numpy as np
 import pandas as pd
 
 def pull_tweet(input_file_name):
@@ -35,6 +31,3 @@ def write_tweet_to_csv(input_file_name, output_file_name):
     data = pull_tweet(input_file_name)
     df = pd.DataFrame(data, columns=[input_file_name[-17:-4]])
     df.to_csv(output_file_name, index=False)
-
-input_file_name = '/Users/colinwan/Desktop/DataFest2020/Tweets/coronavirus-through-1-May-2020-00.txt'
-output_file_name = '/Users/colinwan/Desktop/DataFest2020/Tweets/test.csv'
