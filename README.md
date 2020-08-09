@@ -1,6 +1,5 @@
 # Data Fest 2020
-## Install
-Follow the instruction here: https://github.com/DocNow/twarc
-
-## Usage
-` python dataobtainer.py [InputFileName] [OutputFileName]`
+Using Twitter sentiment analysis during the Covid-19 period to understand
+* How people's mindset is changing throughout the quarantine times
+* What and how media/news is affecting the public's mood
+* What social indication can be inferred from the data
